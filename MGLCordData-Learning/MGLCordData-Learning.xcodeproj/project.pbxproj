@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811BD6FA251B50F900ED9C9F /* MGLCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6EB251B50F900ED9C9F /* MGLCoreDataHelper.swift */; };
+		811BD6FB251B50F900ED9C9F /* MGLCrashLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6ED251B50F900ED9C9F /* MGLCrashLogModel.swift */; };
+		811BD6FC251B50F900ED9C9F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6EE251B50F900ED9C9F /* Model.xcdatamodeld */; };
+		811BD6FD251B50F900ED9C9F /* MGLLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6F2251B50F900ED9C9F /* MGLLogManager.swift */; };
+		811BD6FE251B50F900ED9C9F /* MGLLogViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6F4251B50F900ED9C9F /* MGLLogViewModelProtocol.swift */; };
+		811BD6FF251B50F900ED9C9F /* MGLLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6F5251B50F900ED9C9F /* MGLLogViewModel.swift */; };
+		811BD700251B50F900ED9C9F /* MGLSlideAdressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6F6251B50F900ED9C9F /* MGLSlideAdressTool.m */; };
+		811BD701251B50F900ED9C9F /* MGLCrashSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6F7251B50F900ED9C9F /* MGLCrashSignal.swift */; };
+		811BD702251B50F900ED9C9F /* MGLCrashNSException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD6F8251B50F900ED9C9F /* MGLCrashNSException.swift */; };
 		81446D4724C13FA2006E2159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81446D4624C13FA2006E2159 /* AppDelegate.swift */; };
 		81446D4924C13FA2006E2159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81446D4824C13FA2006E2159 /* SceneDelegate.swift */; };
 		81446D4B24C13FA2006E2159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81446D4A24C13FA2006E2159 /* ViewController.swift */; };
@@ -28,6 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		811BD6EB251B50F900ED9C9F /* MGLCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLCoreDataHelper.swift; sourceTree = "<group>"; };
+		811BD6ED251B50F900ED9C9F /* MGLCrashLogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLCrashLogModel.swift; sourceTree = "<group>"; };
+		811BD6EF251B50F900ED9C9F /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		811BD6F0251B50F900ED9C9F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		811BD6F2251B50F900ED9C9F /* MGLLogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLLogManager.swift; sourceTree = "<group>"; };
+		811BD6F4251B50F900ED9C9F /* MGLLogViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLLogViewModelProtocol.swift; sourceTree = "<group>"; };
+		811BD6F5251B50F900ED9C9F /* MGLLogViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLLogViewModel.swift; sourceTree = "<group>"; };
+		811BD6F6251B50F900ED9C9F /* MGLSlideAdressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLSlideAdressTool.m; sourceTree = "<group>"; };
+		811BD6F7251B50F900ED9C9F /* MGLCrashSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLCrashSignal.swift; sourceTree = "<group>"; };
+		811BD6F8251B50F900ED9C9F /* MGLCrashNSException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLCrashNSException.swift; sourceTree = "<group>"; };
+		811BD6F9251B50F900ED9C9F /* MGLSlideAdressTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLSlideAdressTool.h; sourceTree = "<group>"; };
 		81446D4324C13FA2006E2159 /* MGLCordData-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGLCordData-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81446D4624C13FA2006E2159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81446D4824C13FA2006E2159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +80,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		811BD6EA251B50F900ED9C9F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				811BD6EB251B50F900ED9C9F /* MGLCoreDataHelper.swift */,
+				811BD6EC251B50F900ED9C9F /* Model */,
+				811BD6EE251B50F900ED9C9F /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		811BD6EC251B50F900ED9C9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				811BD6ED251B50F900ED9C9F /* MGLCrashLogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		811BD6F1251B50F900ED9C9F /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				811BD6F2251B50F900ED9C9F /* MGLLogManager.swift */,
+				811BD6F3251B50F900ED9C9F /* ViewModel */,
+				811BD6F6251B50F900ED9C9F /* MGLSlideAdressTool.m */,
+				811BD6F7251B50F900ED9C9F /* MGLCrashSignal.swift */,
+				811BD6F8251B50F900ED9C9F /* MGLCrashNSException.swift */,
+				811BD6F9251B50F900ED9C9F /* MGLSlideAdressTool.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		811BD6F3251B50F900ED9C9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				811BD6F4251B50F900ED9C9F /* MGLLogViewModelProtocol.swift */,
+				811BD6F5251B50F900ED9C9F /* MGLLogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		81446D3A24C13FA2006E2159 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +141,8 @@
 		81446D4524C13FA2006E2159 /* MGLCordData-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				811BD6EA251B50F900ED9C9F /* CoreData */,
+				811BD6F1251B50F900ED9C9F /* Log */,
 				81446D4624C13FA2006E2159 /* AppDelegate.swift */,
 				81446D4824C13FA2006E2159 /* SceneDelegate.swift */,
 				81446D4A24C13FA2006E2159 /* ViewController.swift */,
@@ -204,9 +266,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				81446D4B24C13FA2006E2159 /* ViewController.swift in Sources */,
+				811BD6FA251B50F900ED9C9F /* MGLCoreDataHelper.swift in Sources */,
+				811BD701251B50F900ED9C9F /* MGLCrashSignal.swift in Sources */,
+				811BD700251B50F900ED9C9F /* MGLSlideAdressTool.m in Sources */,
+				811BD6FF251B50F900ED9C9F /* MGLLogViewModel.swift in Sources */,
 				81446D4724C13FA2006E2159 /* AppDelegate.swift in Sources */,
+				811BD6FD251B50F900ED9C9F /* MGLLogManager.swift in Sources */,
+				811BD702251B50F900ED9C9F /* MGLCrashNSException.swift in Sources */,
+				811BD6FC251B50F900ED9C9F /* Model.xcdatamodeld in Sources */,
 				81446D5124C13FA2006E2159 /* MGLCordData_Learning.xcdatamodeld in Sources */,
 				81446D4924C13FA2006E2159 /* SceneDelegate.swift in Sources */,
+				811BD6FE251B50F900ED9C9F /* MGLLogViewModelProtocol.swift in Sources */,
+				811BD6FB251B50F900ED9C9F /* MGLCrashLogModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +542,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		811BD6EE251B50F900ED9C9F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				811BD6EF251B50F900ED9C9F /* Model 2.xcdatamodel */,
+				811BD6F0251B50F900ED9C9F /* Model.xcdatamodel */,
+			);
+			currentVersion = 811BD6EF251B50F900ED9C9F /* Model 2.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		81446D4F24C13FA2006E2159 /* MGLCordData_Learning.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
